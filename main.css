@@ -390,8 +390,8 @@ table {
 	border-top-left-radius: 16px;
 	border-top-right-radius: 16px;
 	margin: 5px 5px 0 0;
-	color: #006F94;
-	background-color: #ededed;
+	color: #343a40;
+	background-color: #ffffff;
 }
 
 .nav-tabs>li>a[title~=Week]{
@@ -408,17 +408,21 @@ table {
 
 .nav-tabs .nav-link.active {
 	color: #ffffff;
-	background-color: #007EA8;
+	font-weight: bold;
+	background-color: #016080;
 	border-color: none;
 	cursor: pointer;
-	border: 1px solid #007EA8;
 }
 
 .nav-tabs .nav-link.active:hover {
-	border: 1px solid #ffa939;
+	border: 1px solid #e8e8e8;
 }
 
 a.nav-link:hover,
 a.nav-link:focus {
-    box-shadow: 0 5px 0 #fff, 0 0 5px #888;
+    box-shadow: 0 5px 0 #fff, 0 0 5px #e8e8e8;
+}
+
+.nav-tabs .nav-link {
+	border: 1px solid #e8e8e8;
 }
