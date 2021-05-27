@@ -54,13 +54,13 @@ h3.sectionname {  /* Style page titles */
 	margin-bottom: 0.5em;
 }
 
-#goto-top-link .icon{
+#goto-top-link .icon{ /* Style back to top button size */
 	font-size: 40px;
 	width: 70px;
 	height: 45px;
 }
 
-#goto-top-link .btn-light{
+#goto-top-link .btn-light{ /* Style back to top button colour, shape */
 	background-color: #db7c00;
 	box-shadow: 0 0 5px #888;
 	border-color: none;
