@@ -56,7 +56,6 @@ h3.sectionname {  /* Style page titles */
 
 #goto-top-link .icon{ /* Style back to top button size */
 	font-size: 40px;
-	color: #FFFFFF;
 	width: 70px;
 	height: 45px;
 }
@@ -66,6 +65,7 @@ h3.sectionname {  /* Style page titles */
 	box-shadow: 0 0 5px #888;
 	border-color: none;
 	border-radius: 5px 0 0 5px;
+	color: #ffffff;
 }
 
 #iframe {  /* styles embedded iframes incl. dragdrop videos */
