@@ -1,0 +1,70 @@
+[data-toggle="collapse"]:before {
+    display: inline-block;
+padding: 6px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 0.8em;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  content: "\f138";
+  transform: rotate(90deg) ;
+  transition: all linear 0.10s;
+  }   
+[data-toggle="collapse"].ui-accordion-header-collapsed:before {
+  transform: rotate(0deg) ;
+}
+
+.ui-accordion-header {
+   background-color: #007EA8;
+   color: #ffffff;
+   padding: 0.3rem;
+   border-radius: 15px;
+   cursor: pointer;
+}
+
+.ui-accordion-header-collapsed {
+   background-color: #d7d7d7;
+   color: #404040;
+   padding: 0.3rem;
+}
+
+input:focus, textarea:focus, select:focus, button:focus{
+        outline-style: dotted;
+outline-color: #d7d7d7;
+    }
+
+.ui-accordion-content {
+   display: block;
+   height: auto;
+   padding: 0.5em 1em;
+   overflow: auto;
+}
+
+.ui-accordion {
+   display: block;
+   height: auto;
+   overflow: hidden;
+}
+
+.ui-accordion-header:focus {
+outline: none;
+border: 1px dotted #007EA8;
+}
+.fullwidthcon {
+width: 100%
+}
+
+.intromed {
+border: 2px dotted #d7d7d7;
+border-radius: 15px;
+padding: 10px
+}
+
+.intro h1{
+font-weight: bold;
+text-align: center;
+color: #404040 !important;
+}
+.intro {
+max-width: 1300px;
+}
