@@ -146,3 +146,10 @@ font-weight: bold;
   clear: both;
   display: table;
 }
+
+.profileimgcon>.atto_image_button .img-responsive{
+max-width: 80px !important;
+   height: auto !important;
+border-radius: 15px;
+}
+
