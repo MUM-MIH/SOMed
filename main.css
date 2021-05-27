@@ -61,8 +61,7 @@ h3.sectionname {  /* Style page titles */
 }
 
 #goto-top-link .btn-light{ /* Style back to top button colour, shape */
-	background-color: #db7c00;
-	box-shadow: 0 0 5px #888;
+	background-color: #db7c00f0;
 	border-color: none;
 	border-radius: 5px 0 0 5px;
 	color: #ffffff;
