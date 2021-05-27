@@ -378,46 +378,47 @@ table {
 
 /* Styles specific to tabbed pages*/
 .onetopic ul:first-child { 
-  display: none;
+	display: none;
 }
 
 .nav {
-margin-left: 60px;
-margin-right: 65px;
+	margin-left: 60px;
+	margin-right: 65px;
 }
 
 .nav-tabs>li>a {
-border-top-left-radius: 16px;
-border-top-right-radius: 16px;
-margin: 5px 5px 0 0;
-color: #006F94;
-background-color: #ededed;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	margin: 5px 5px 0 0;
+	color: #006F94;
+	background-color: #ededed;
 }
 
 .nav-tabs>li>a[title~=Week]{
-padding: 0px 12px 0 !important;
-font-size: 25px;
-font-weight: 500;
+	padding: 0px 12px 0 !important;
+	font-size: 25px;
+	font-weight: 500;
+	background-color: #343a40;
+	color: #FFFFFF;
 }
 
 .nav-tabs>li>a:not([title~=Week]){
-padding: 9px 9px 6px !important;
+	padding: 9px 9px 6px !important;
 }
 
 .nav-tabs .nav-link.active {
-color: #ffffff;
-background-color: #007EA8;
-border-color: none;
-cursor: pointer;
-border: 1px solid #007EA8;
+	color: #ffffff;
+	background-color: #007EA8;
+	border-color: none;
+	cursor: pointer;
+	border: 1px solid #007EA8;
 }
 
 .nav-tabs .nav-link.active:hover {
-border: 1px solid #ffa939;
+	border: 1px solid #ffa939;
 }
 
 a.nav-link:hover,
 a.nav-link:focus {
-	color: #2b2b2b;
-	text-decoration: none;
+    box-shadow: 0 5px 0 #fff, 0 0 5px #888;
 }
