@@ -1,11 +1,11 @@
 /* Styles applying to overall site */
 
 li.section .content {
-    		margin: 0 0px !important;
-  	}
+    margin: 0 0px !important;
+}
 
 .course-content .single-section {
-margin-left: 1.5em;
+	margin-left: 1.5em;
 }
 
 #gridshadebox_content .activity {  /* Hides ugly dotted lines seperating activities */
@@ -52,6 +52,19 @@ h3.sectionname {  /* Style page titles */
 
 .section li.activity {
 	margin-bottom: 0.5em;
+}
+
+#goto-top-link .icon{
+	font-size: 40px;
+	width: 70px;
+	height: 45px;
+}
+
+#goto-top-link .btn-light{
+	background-color: #db7c00;
+	box-shadow: 0 0 5px #888;
+	border-color: none;
+	border-radius: 5px 0 0 5px;
 }
 
 #iframe {  /* styles embedded iframes incl. dragdrop videos */
