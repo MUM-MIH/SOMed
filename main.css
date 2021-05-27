@@ -415,12 +415,13 @@ table {
 }
 
 .nav-tabs .nav-link.active:hover {
-	border: 1px solid #e8e8e8;
+	border: 1px solid #fff;
+	box-shadow: 0 5px 0 #fff, 0 0 5px #aaa;
 }
 
 a.nav-link:hover,
 a.nav-link:focus {
-    box-shadow: 0 5px 0 #fff, 0 0 5px #e8e8e8;
+    box-shadow: 0 5px 0 #fff, 0 0 5px #ccc;
 }
 
 .nav-tabs .nav-link {
