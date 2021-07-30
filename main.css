@@ -440,3 +440,18 @@ a.nav-link:focus {
 .nav-tabs .nav-link {
 	border: 1px solid #e8e8e8;
 }
+
+.intromed {
+border: 2px dotted #d7d7d7;
+border-radius: 15px;
+padding: 10px
+}
+
+.intro h1{
+font-weight: bold;
+text-align: center;
+color: #404040 !important;
+}
+.intro {
+max-width: 1300px;
+}
